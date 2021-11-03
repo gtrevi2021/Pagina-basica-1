@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* body{
+    display: block;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+} */
+
+/* inicio de encabezado */
+.encabezado{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    background: #3efc04;
+    color: #000;
+    font-size: 16px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: end;
+    background: rgb(26, 25, 25);
+    
+}
+
+a{
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #3efc04;
+}
+/* fin */
+
+section{
+    width: 100%;
+    height: 100vh;
+    color: #000;
+}
+
+/* inicio */
+.grid{
+    
+    align-items: center;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 16.55% 16.55% 16.55% 16.55% 16.55% 16.55%;
+    gap: 5px;
+}
+.x{
+    
+    align-items: center;
+    padding: .5em;
+    
+}
+.x:hover{
+    margin-right: 30px;
+    transition: all .5s ease;
+}
+
+
+/* fin */
+aside{
+    position: inherit;
+    display: flex;
+    justify-content: last baseline;
+    height: 900px;
+}
+
+/* NO MOVER MAS ABAJO */
+
+footer{
+    position: relative;
+    width: 100%;
+    background: #3efc04;
+    min-height: 100px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icon, footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social_icon li, footer li{
+    list-style: none;
+}
+
+
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+footer .social_icon li a{
+    font-size:  2em;
+    color: #000;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+footer li a{
+    font-size:  1.2em;
+    color: #000;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+}
+footer li:hover{
+    opacity: 1;
+
+}
+
+footer p{
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: .7em;
+}
+
